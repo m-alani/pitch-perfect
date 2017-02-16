@@ -29,27 +29,34 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aFs-Zb-6nc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dq-RE-eA4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dq-RE-eA4">
                                 <rect key="frame" x="136" y="356" width="103" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trP-bw-l0u">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trP-bw-l0u">
                                 <rect key="frame" x="135" y="385" width="106" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Stop Recording"/>
+                                <connections>
+                                    <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DXp-pu-CFw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="3dq-RE-eA4" firstAttribute="centerX" secondItem="1Dc-HB-N1X" secondAttribute="centerX" id="84E-AC-RrU"/>
+                            <constraint firstItem="trP-bw-l0u" firstAttribute="centerX" secondItem="3dq-RE-eA4" secondAttribute="centerX" id="JMX-hD-gPd"/>
+                            <constraint firstItem="3dq-RE-eA4" firstAttribute="top" secondItem="1Dc-HB-N1X" secondAttribute="bottom" constant="8" id="Jan-Du-78I"/>
+                            <constraint firstItem="trP-bw-l0u" firstAttribute="top" secondItem="3dq-RE-eA4" secondAttribute="bottom" constant="8" id="M9V-mZ-ZSc"/>
                             <constraint firstItem="1Dc-HB-N1X" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Sgj-wG-aNs"/>
                             <constraint firstItem="1Dc-HB-N1X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UX4-aW-TKC"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="recordButton" destination="1Dc-HB-N1X" id="hVg-Ez-dOI"/>
                         <outlet property="recordingLabel" destination="3dq-RE-eA4" id="9Hq-mH-seJ"/>
+                        <outlet property="stopRecordingButton" destination="trP-bw-l0u" id="75h-sz-0YQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
