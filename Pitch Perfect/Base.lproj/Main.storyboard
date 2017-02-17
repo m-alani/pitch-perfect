@@ -36,10 +36,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trP-bw-l0u">
-                                <rect key="frame" x="137" y="448" width="100" height="100"/>
+                                <rect key="frame" x="155" y="448" width="64" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="asE-vW-HC5"/>
-                                    <constraint firstAttribute="width" constant="100" id="mtg-Wj-L4u"/>
+                                    <constraint firstAttribute="height" constant="64" id="asE-vW-HC5"/>
+                                    <constraint firstAttribute="width" constant="64" id="mtg-Wj-L4u"/>
                                 </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>
@@ -47,7 +47,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.90351050659999999" green="0.9736474115" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3dq-RE-eA4" firstAttribute="centerX" secondItem="1Dc-HB-N1X" secondAttribute="centerX" id="84E-AC-RrU"/>
                             <constraint firstItem="trP-bw-l0u" firstAttribute="centerX" secondItem="3dq-RE-eA4" secondAttribute="centerX" id="HGD-wc-sBo"/>
@@ -167,7 +167,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90351050659999999" green="0.9736474115" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="leadingMargin" secondItem="4lg-S6-gMS" secondAttribute="leading" id="0NT-kp-kGP"/>
                             <constraint firstItem="4lg-S6-gMS" firstAttribute="top" secondItem="q6G-Ce-eSk" secondAttribute="bottom" id="BAU-Of-JIH"/>
