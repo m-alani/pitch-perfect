@@ -6,7 +6,6 @@ iOS 10 - XCode 8 - Swift 3
 
 #### The App is created to demonstarate basic knowledge of:
 - AVFoundation
-- Unit Testing (XCTest)
 - XCode StoryBoards & Auto Layout
 - iOS Stack Views
 - The Delegate Pattern in iOS development
