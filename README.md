@@ -17,7 +17,7 @@ iOS 10 - XCode 8 - Swift 3
 
 The app was built following Udacity's "Intro to iOS Development" course.  
 You can find the course through [this link](https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585)  
-Digital assets & images are provided with course by Udacity.  
+Digital assets & images are provided with the course by Udacity.  
 
 -----  
 
