@@ -21,17 +21,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lJ-tP-Cj9">
-                                <rect key="frame" x="112" y="313.5" width="150" height="40"/>
-                                <state key="normal" title=" Pitch Perfect" image="Icon-40">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lJ-tP-Cj9">
+                                <rect key="frame" x="112" y="419" width="150" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" Pitch Perfect">
                                     <color key="titleColor" red="0.51115145090000003" green="0.80064730809999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTo-nO-0qW">
+                                <rect key="frame" x="110" y="256" width="155" height="155"/>
+                                <state key="normal" image="RecordButton"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marwan Alani - 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91o-s7-FSx">
+                                <rect key="frame" x="125" y="638" width="124" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="lqX-aR-syi"/>
+                                    <constraint firstAttribute="width" constant="124" id="rIc-Nz-5lJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90351050659999999" green="0.9736474115" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5lJ-tP-Cj9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="52h-ey-cKr"/>
-                            <constraint firstItem="5lJ-tP-Cj9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YCb-CK-Ql3"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="91o-s7-FSx" secondAttribute="bottom" constant="8" id="HuX-EL-Yua"/>
+                            <constraint firstItem="qTo-nO-0qW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hqe-BC-RdW"/>
+                            <constraint firstItem="qTo-nO-0qW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="lIF-s9-xwD"/>
+                            <constraint firstItem="91o-s7-FSx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uK7-Fu-Xo2"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -41,6 +58,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Icon-40" width="40" height="40"/>
+        <image name="RecordButton" width="155" height="155"/>
     </resources>
 </document>
