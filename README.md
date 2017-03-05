@@ -1,5 +1,8 @@
 # Pitch Perfect 
 ## A sample iOS app  
+  
+#### Record your voice and play it back with fun filters & effects!  
+
 iOS 10 - XCode 8 - Swift 3  
 
 -----  
