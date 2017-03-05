@@ -2,6 +2,8 @@
 //  PlaySoundsViewController+Audio.swift
 //  PitchPerfect
 //
+//  Created by Marwan Alani on 2017-02-16.
+//  Based on a helper file provided by Udacity
 //  Copyright © 2016 Udacity. All rights reserved.
 //
 
