@@ -10,16 +10,16 @@ iOS 10 - XCode 8 - Swift 3
 #### The App is created to demonstarate basic knowledge of:
 - AVFoundation
 - XCode StoryBoards & Auto Layout
-- iOS Stack Views
-- The Delegate Pattern in iOS development
+- Stack Views & Navigation Control (Segues)
+- The Delegate Pattern
 - iOS File Access
-- Hardware Access Permissions (info.plist)
+- Access Permissions (info.plist)
 
 -----  
 
-The app was built following Udacity's "Intro to iOS Development" course.  
+The app was inspired by Udacity's "Intro to iOS Development" course.  
 You can find the course through [this link](https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585)  
-Digital assets & images are provided with the course by Udacity.  
+Digital assets are courtesy of Udacity.  
 
 -----  
 
